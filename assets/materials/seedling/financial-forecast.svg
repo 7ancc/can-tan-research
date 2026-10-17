@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="570" viewBox="0 0 900 570" role="img" aria-labelledby="title desc">
+<title id="title">Financial forecasting and investment evaluation</title>
+<desc id="desc">Business-plan projections for 2023 to 2027, in RMB ten thousand. Revenue: 192, 420, 798, 1128.60, 1523.61. Net profit: 42.14, 69.93, 97.41, 151.30, 236.00. Model-reported NPV: 495.28. Payback: 1.14 years. Discount rate: 10 percent. These are planning forecasts.</desc>
+<rect width="900" height="570" fill="#fafbf8"/>
+<g font-family="Arial, sans-serif">
+<text x="38" y="43" font-size="26" fill="#173047" font-weight="600" text-anchor="start">Financial Forecasting</text>
+<text x="38" y="72" font-size="13" fill="#526270" font-weight="400" text-anchor="start">BUSINESS-PLAN PROJECTIONS · 2023–2027</text>
+<rect x="725" y="30" width="136" height="30" rx="4" fill="#e9eddf"/>
+<text x="793" y="50" font-size="12" fill="#173047" font-weight="600" text-anchor="middle">FORECAST</text>
+<text x="52" y="114" font-size="13" fill="#526270" font-weight="400" text-anchor="start">RMB 10,000</text>
+<line x1="90" y1="363.0" x2="860" y2="363.0" stroke="#d6dddc"/>
+<text x="78" y="368.0" font-size="13" fill="#526270" font-weight="400" text-anchor="end">0</text>
+<line x1="90" y1="305.5" x2="860" y2="305.5" stroke="#d6dddc"/>
+<text x="78" y="310.5" font-size="13" fill="#526270" font-weight="400" text-anchor="end">400</text>
+<line x1="90" y1="248.0" x2="860" y2="248.0" stroke="#d6dddc"/>
+<text x="78" y="253.0" font-size="13" fill="#526270" font-weight="400" text-anchor="end">800</text>
+<line x1="90" y1="190.5" x2="860" y2="190.5" stroke="#d6dddc"/>
+<text x="78" y="195.5" font-size="13" fill="#526270" font-weight="400" text-anchor="end">1200</text>
+<line x1="90" y1="133.0" x2="860" y2="133.0" stroke="#d6dddc"/>
+<text x="78" y="138.0" font-size="13" fill="#526270" font-weight="400" text-anchor="end">1600</text>
+<rect x="134" y="335.4" width="52" height="27.599999999999998" rx="2" fill="#173047"/>
+<text x="160" y="325.4" font-size="14" fill="#173047" font-weight="600" text-anchor="middle">192.00</text>
+<text x="160" y="392" font-size="14" fill="#526270" font-weight="400" text-anchor="middle">2023</text>
+<rect x="293" y="302.625" width="52" height="60.375" rx="2" fill="#173047"/>
+<text x="319" y="292.625" font-size="14" fill="#173047" font-weight="600" text-anchor="middle">420.00</text>
+<text x="319" y="392" font-size="14" fill="#526270" font-weight="400" text-anchor="middle">2024</text>
+<rect x="452" y="248.2875" width="52" height="114.7125" rx="2" fill="#173047"/>
+<text x="478" y="238.2875" font-size="14" fill="#173047" font-weight="600" text-anchor="middle">798.00</text>
+<text x="478" y="392" font-size="14" fill="#526270" font-weight="400" text-anchor="middle">2025</text>
+<rect x="611" y="200.76375000000002" width="52" height="162.23624999999998" rx="2" fill="#173047"/>
+<text x="637" y="190.76375000000002" font-size="14" fill="#173047" font-weight="600" text-anchor="middle">1128.60</text>
+<text x="637" y="392" font-size="14" fill="#526270" font-weight="400" text-anchor="middle">2026</text>
+<rect x="770" y="143.9810625" width="52" height="219.0189375" rx="2" fill="#173047"/>
+<text x="796" y="133.9810625" font-size="14" fill="#173047" font-weight="600" text-anchor="middle">1523.61</text>
+<text x="796" y="392" font-size="14" fill="#526270" font-weight="400" text-anchor="middle">2027</text>
+<polyline points="160,356.942375 319,352.9475625 478,348.9973125 637,341.250625 796,329.075" fill="none" stroke="#95764a" stroke-width="3"/>
+<circle cx="160" cy="356.942375" r="4.5" fill="#95764a"/>
+<text x="160" y="347.942375" font-size="13" fill="#95764a" font-weight="600" text-anchor="middle">42.14</text>
+<circle cx="319" cy="352.9475625" r="4.5" fill="#95764a"/>
+<text x="319" y="343.9475625" font-size="13" fill="#95764a" font-weight="600" text-anchor="middle">69.93</text>
+<circle cx="478" cy="348.9973125" r="4.5" fill="#95764a"/>
+<text x="478" y="339.9973125" font-size="13" fill="#95764a" font-weight="600" text-anchor="middle">97.41</text>
+<circle cx="637" cy="341.250625" r="4.5" fill="#95764a"/>
+<text x="637" y="332.250625" font-size="13" fill="#95764a" font-weight="600" text-anchor="middle">151.30</text>
+<circle cx="796" cy="329.075" r="4.5" fill="#95764a"/>
+<text x="796" y="320.075" font-size="13" fill="#95764a" font-weight="600" text-anchor="middle">236.00</text>
+<rect x="40" y="414" width="13" height="13" fill="#173047"/>
+<text x="62" y="426" font-size="14" fill="#173047" font-weight="400" text-anchor="start">Revenue</text>
+<line x1="174" y1="421" x2="195" y2="421" stroke="#95764a" stroke-width="3"/>
+<text x="206" y="426" font-size="14" fill="#173047" font-weight="400" text-anchor="start">Net profit</text>
+<line x1="38" y1="447" x2="862" y2="447" stroke="#d6dddc"/>
+<text x="38" y="485" font-size="25" fill="#173047" font-weight="600" text-anchor="start">495.28</text>
+<text x="38" y="511" font-size="14" fill="#526270" font-weight="400" text-anchor="start">NPV · model estimate</text>
+<text x="340" y="485" font-size="25" fill="#173047" font-weight="600" text-anchor="start">1.14 years</text>
+<text x="340" y="511" font-size="14" fill="#526270" font-weight="400" text-anchor="start">Projected payback</text>
+<text x="648" y="485" font-size="25" fill="#173047" font-weight="600" text-anchor="start">10%</text>
+<text x="648" y="511" font-size="14" fill="#526270" font-weight="400" text-anchor="start">Discount-rate assumption</text>
+<text x="38" y="550" font-size="12" fill="#526270" font-weight="400" text-anchor="start">Source: business plan, PDF pp. 113–115 · Planning assumptions, not realised results.</text>
+</g>
+</svg>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://7ancc.github.io/can-tan-research/sitemap.xml
