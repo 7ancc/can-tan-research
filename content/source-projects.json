@@ -1,0 +1,629 @@
+[
+  {
+    "id": "credit",
+    "group": "business",
+    "featured": true,
+    "title": "Corporate credit risk & environmental tax reform",
+    "role": "Independent research · First-author manuscript",
+    "status": "Manuscript submitted · Securities Market Herald",
+    "desc": "Constructed a KMV-based expected default frequency measure and evaluated the 2018 environmental fee-to-tax reform using firm-level panel data. Extended the study from DID to DDD and examined restructuring and market-clearing mechanisms.",
+    "methods": "KMV–EDF · DID/DDD · DDML · Stata",
+    "result": "Outstanding Undergraduate Thesis · 96/100 · School rank 1st",
+    "image": "credit.png",
+    "question": "How does stronger environmental regulation reshape corporate default risk?",
+    "contrib": [
+      "Framed the research question, constructed risk measures and prepared firm-panel data.",
+      "Implemented fixed-effects models, parallel-trend and placebo tests, endogeneity and robustness checks, and mechanism analysis.",
+      "Extended the design to DDD and DDML and developed the manuscript and research figures."
+    ],
+    "notes": "The extended first-author manuscript is submitted; it is not described as accepted or published.",
+    "detail": "environmental-tax",
+    "figures": [
+      {
+        "title": "Research Framework",
+        "subtitle": "Policy identification, mechanisms & research workflow",
+        "image": "/evidence/environmental-tax/research-framework.webp"
+      },
+      {
+        "title": "Parallel Trends Test",
+        "subtitle": "Figure 1 · Environmental tax reform & corporate default risk",
+        "image": "/evidence/environmental-tax/parallel-trends.webp"
+      },
+      {
+        "title": "Placebo Test",
+        "subtitle": "Figure 2 · Randomised treatment assignment",
+        "image": "/evidence/environmental-tax/placebo-test.webp"
+      },
+      {
+        "title": "Covariate Balance",
+        "subtitle": "Figure 3 · Matching differences",
+        "image": "/evidence/environmental-tax/covariate-balance.webp"
+      },
+      {
+        "title": "Propensity Score Matching",
+        "subtitle": "Figure 4 · Kernel density before & after matching",
+        "image": "/evidence/environmental-tax/propensity-score-matching.webp"
+      },
+      {
+        "title": "Industry Concentration",
+        "subtitle": "Figure 5 · Heterogeneity analysis",
+        "image": "/evidence/environmental-tax/industry-concentration.webp"
+      },
+      {
+        "title": "Environmental Information Disclosure",
+        "subtitle": "Figure 6 · Heterogeneity by disclosure quality",
+        "image": "/evidence/environmental-tax/environmental-disclosure.webp"
+      },
+      {
+        "title": "Corporate Ownership",
+        "subtitle": "Figure 7 · Heterogeneity by ownership type",
+        "image": "/evidence/environmental-tax/corporate-ownership.webp"
+      }
+    ]
+  },
+  {
+    "id": "nlp",
+    "group": "ml",
+    "featured": false,
+    "title": "Consumer review intelligence with BERT–BiLSTM–CNN",
+    "role": "Analysis & research writing lead",
+    "status": "Applied NLP · Modelling study",
+    "desc": "Analysed text preprocessing, review classification, sentiment, keywords and human–machine review detection, followed by independent reproduction of core Transformer workflows.",
+    "methods": "BERT · BiLSTM · CNN · NLP · PyTorch",
+    "result": "≈92% macro precision / recall / F1 in the project report",
+    "question": "How can unstructured reviews be converted into reliable decision signals?",
+    "contrib": [
+      "Led interpretation and manuscript development across four text-analysis tasks.",
+      "Connected model evaluation to consumer-facing implications.",
+      "Independently reproduced core transformer-based NLP workflows in Python afterward."
+    ],
+    "notes": "The ≈92% metric is a project-reported result, not a claim of independent production validation.",
+    "detail": "nlp",
+    "figures": [
+      {
+        "title": "BERT–BiLSTM–CNN Architecture",
+        "subtitle": "Original Word report · Integrated NLP model structure",
+        "image": "/modeling/nlp/architecture.webp?v=20261007-refined"
+      },
+      {
+        "title": "Macro Classification Performance",
+        "subtitle": "Portfolio redraw · Precision 92.09% / Recall 92.08% / F1 92.09% · Report summary",
+        "image": "/modeling/nlp/macro-performance.webp?v=20261007-refined"
+      },
+      {
+        "title": "Consumer Vocabulary",
+        "subtitle": "Original report · Figure 5.1 · Word-frequency exploration",
+        "image": "/modeling/nlp/review-word-cloud.webp?v=20261007-refined"
+      },
+      {
+        "title": "BERT Keyword Examples",
+        "subtitle": "Original report · Table 6.1 · Selected extracted product keywords",
+        "image": "/modeling/nlp/keyword-examples.webp?v=20261007-refined"
+      }
+    ]
+  },
+  {
+    "id": "climate",
+    "group": "ml",
+    "featured": true,
+    "title": "Global temperature forecasting with LSTM & ARIMA",
+    "role": "First-listed co-first author",
+    "status": "Published · PLOS One (2025)",
+    "desc": "Modelled global temperature dynamics from 1880–2022, integrating neural and statistical time-series approaches with environmental interpretation.",
+    "methods": "Python · LSTM · ARIMA · Correlation analysis",
+    "result": "Peer-reviewed publication · First Prize, Asia–Pacific MCM",
+    "image": "climate_figure.jpg",
+    "question": "What can complementary forecasting models reveal about long-term temperature trends?",
+    "contrib": [
+      "Implemented forecasting software, curated data and analysed 1880–2022 global temperature series within the co-authored study.",
+      "Contributed investigation, formal analysis, original drafting and revision; extended the modelling work into a peer-reviewed publication."
+    ],
+    "notes": "The published contribution statement credits software, data curation, formal analysis and writing. Correlation analysis does not establish a causal pandemic effect.",
+    "detail": "climate",
+    "figures": [
+      {
+        "title": "APMCM First Prize",
+        "subtitle": "2022 · Award certificate",
+        "image": "/evidence/apmcm-first-prize.webp"
+      },
+      {
+        "title": "LSTM forecasting results · Figure 6",
+        "subtitle": "Tan et al. (2025), PLOS One · CC BY · Original PDF page 16",
+        "image": "/research/climate-lstm-original.jpg"
+      },
+      {
+        "title": "Global temperature projections · Figure 4",
+        "subtitle": "Tan et al. (2025), PLOS One · CC BY · Original PDF page 14",
+        "image": "/research/climate-arima-original.jpg"
+      }
+    ]
+  },
+  {
+    "id": "aviation",
+    "group": "ml",
+    "featured": false,
+    "title": "Risk analytics with ARIMA & XGBoost",
+    "role": "Research writing & analysis lead",
+    "status": "MathorCup Second Prize · 2023",
+    "desc": "Studied flight-operation risk with anomaly detection, time-series modelling and XGBoost classification to inform early-warning analysis.",
+    "methods": "XGBoost · ARIMA · Anomaly detection · Optimisation",
+    "result": "MathorCup Second Prize · 39-page report · Classification 0.658 → 0.726 in the team study",
+    "question": "Can time-series features and supervised learning identify operational risk patterns?",
+    "contrib": [
+      "Coordinated statistical analysis and interpretation across aviation QAR variables.",
+      "Translated model results into an early-warning research narrative and technical report.",
+      "Independently reproduced XGBoost workflows in Python later."
+    ],
+    "detail": "aviation",
+    "figures": [
+      {
+        "title": "Flight-Control Warning Boundaries",
+        "subtitle": "Original report · Figure 9 · Fitted behavior and warning bounds",
+        "image": "/modeling/aviation/warning-boundaries.webp?v=20261007-refined"
+      },
+      {
+        "title": "Flight-Technique Feature Importance",
+        "subtitle": "Original report · Figure 18 · Selected flight-parameter contributions",
+        "image": "/modeling/aviation/feature-importance.webp?v=20261007-refined"
+      },
+      {
+        "title": "Flight-Control Time Series",
+        "subtitle": "Original Word report · Fitted flight-control behavior",
+        "image": "/modeling/aviation/flight-control-series.webp?v=20261007-refined"
+      },
+      {
+        "title": "Exceedance Events by Day Type",
+        "subtitle": "Original report · Figure 16 · Workday and rest-day event distribution",
+        "image": "/modeling/aviation/exceedance-distribution.webp?v=20261007-refined"
+      }
+    ],
+    "notes": "The classification improvement is the competition report’s result, not a deployed safety system."
+  },
+  {
+    "id": "ets",
+    "group": "economics",
+    "featured": true,
+    "title": "Carbon markets & corporate patient capital",
+    "role": "First-author manuscript",
+    "status": "Submitted · Ecological Economics",
+    "desc": "Investigated whether emissions trading may alter long-horizon capital allocation in pollution-intensive enterprises, using empirical policy evaluation and event-study evidence.",
+    "methods": "Multi-period DID · Firm panels · Mechanisms · Event studies",
+    "result": "First-author manuscript submitted to Ecological Economics",
+    "image": "ets.png",
+    "question": "Can an environmental market mechanism unintentionally affect patient capital?",
+    "contrib": [
+      "Developed the question connecting emissions trading with long-horizon corporate capital.",
+      "Prepared empirical analysis, mechanism and heterogeneity tests, robustness evidence and manuscript writing."
+    ],
+    "notes": "The manuscript is submitted and not yet a published article.",
+    "detail": "patient-capital",
+    "figures": [
+      {
+        "title": "ETS event study",
+        "subtitle": "Original manuscript figure · Estimates and uncertainty intervals",
+        "image": "/research-development/ets-event-study.webp"
+      },
+      {
+        "title": "ETS placebo test",
+        "subtitle": "Original selected robustness evidence",
+        "image": "/research-development/ets-placebo.webp"
+      }
+    ]
+  },
+  {
+    "id": "healthcare",
+    "group": "economics",
+    "featured": false,
+    "title": "Healthcare investment efficiency in China",
+    "role": "Third author · Quantitative research contributor",
+    "status": "Published · Finance Research Letters (2024)",
+    "desc": "Contributed to a national healthcare efficiency study using ten years of healthcare inputs and outputs, DEA-based efficiency analysis and Origin visualisation.",
+    "methods": "DEA · Efficiency measurement · Origin",
+    "result": "Finance Research Letters 67, 105688",
+    "question": "How efficiently are healthcare resources transformed into measurable outcomes?",
+    "contrib": [
+      "Supported input–output indicator framework and DEA analysis on 2012–2021 healthcare data.",
+      "Prepared figures and quantitative evidence using Origin.",
+      "Contributed as third author; not portrayed as research lead."
+    ],
+    "detail": "healthcare",
+    "figures": []
+  },
+  {
+    "id": "neural",
+    "group": "ml",
+    "featured": false,
+    "title": "Neural dynamics & hyperspectral detection",
+    "role": "Research contributor · Patent co-inventor",
+    "status": "Granted invention patent · Co-inventor",
+    "desc": "Contributed literature synthesis, mathematical-method screening and research communication for neural-dynamics work; co-inventor on a granted hyperspectral detection patent.",
+    "methods": "Adaptive gradient neural dynamics · High-dimensional computation",
+    "result": "Invention patent ZL202410627687.5",
+    "question": "How can unfamiliar mathematical methods be learned, evaluated and translated into research?",
+    "contrib": [
+      "Assisted literature review, method screening, figure preparation, manuscript and patent documentation.",
+      "Developed working knowledge of ACGND dynamic tensor inversion research.",
+      "Patent co-inventor; not claiming primary algorithm authorship."
+    ],
+    "detail": "neural-dynamics",
+    "figures": [
+      {
+        "title": "Granted Invention Patent",
+        "subtitle": "Hyperspectral Image Target Detection Method · Co-inventor",
+        "image": "/evidence/hyperspectral-patent.webp"
+      }
+    ],
+    "notes": "Research support for the broader ACGND stream; not a listed author of its published article. The hyperspectral invention patent is a co-inventor output."
+  },
+  {
+    "id": "market",
+    "group": "business",
+    "featured": false,
+    "title": "Consumer analytics & field research",
+    "role": "Team lead · Five-member research team",
+    "status": "Provincial Second Prize · CP Cup",
+    "desc": "Combined 434 valid questionnaires and first-hand field research with online review mining and satisfaction analysis to produce evidence-based recommendations.",
+    "methods": "Python · Jieba · SO-PMI · ACSI · SPSS",
+    "result": "434 valid responses · 105-page research report",
+    "question": "How can quantitative surveys and real consumer behaviour inform management decisions?",
+    "contrib": [
+      "Led research framing, survey coordination, analytical integration and final reporting.",
+      "Used survey-based and text-based evidence to identify consumer experience gaps.",
+      "Produced quantitative analysis and practical market recommendations."
+    ],
+    "detail": "consumer",
+    "figures": [
+      {
+        "title": "On-site questionnaire collection",
+        "subtitle": "Consumer survey · Zhanjiang field research",
+        "image": "/consumer/field-survey-02.webp?v=20261007-refined"
+      },
+      {
+        "title": "Conversations with local stakeholders",
+        "subtitle": "On-site interviews · Zhanjiang coast",
+        "image": "/consumer/field-survey-03.webp?v=20261007-refined"
+      },
+      {
+        "title": "Field interviews and survey collection",
+        "subtitle": "Online and offline research · Zhanjiang",
+        "image": "/consumer/field-survey-04.webp?v=20261007-refined"
+      },
+      {
+        "title": "Provincial Second Prize",
+        "subtitle": "“CP Cup” Market Survey Competition · Guangdong · 2023",
+        "image": "/consumer/award.webp"
+      }
+    ],
+    "notes": "Led a five-member team; 434 valid responses and the 105-page report are project outputs."
+  },
+  {
+    "id": "citrus",
+    "group": "business",
+    "featured": false,
+    "title": "AI-enabled agritech: from R&D to business use",
+    "role": "Deputy project lead · Business & commercialisation",
+    "status": "Interdisciplinary project · Provincial First Prize",
+    "desc": "Translated a technical team’s AI-based pest recognition and early-warning system into field-tested product concepts, financial models, customer research and commercial strategy.",
+    "methods": "Applied AI · Market research · Financial modelling · Product strategy",
+    "result": "Six project awards; software copyrights and utility-model patents from the wider project",
+    "question": "How can promising AI-enabled technology become a viable product in a real market?",
+    "contrib": [
+      "Led market research, pricing, business-model design and financial forecasts.",
+      "Coordinated grower visits, field validation, external partners and the translation of team-developed technology into product plans."
+    ],
+    "detail": "citrus",
+    "figures": [
+      {
+        "image": "/citrus/role-orchard-team.webp",
+        "title": "Orchard fieldwork with the team",
+        "subtitle": "Original Citrus Guardian fieldwork record"
+      },
+      {
+        "image": "/citrus/grower-interview-v2.webp",
+        "title": "Interview with a grower",
+        "subtitle": "Original Citrus Guardian fieldwork record"
+      },
+      {
+        "image": "/citrus/field-consultation.webp",
+        "title": "Field consultation",
+        "subtitle": "Original Citrus Guardian fieldwork record"
+      },
+      {
+        "image": "/citrus/field-trial-record.webp",
+        "title": "Field trial record",
+        "subtitle": "Original Citrus Guardian fieldwork record"
+      },
+      {
+        "title": "Internet+ Provincial Bronze",
+        "subtitle": "Citrus-pest project · 2023",
+        "image": "/evidence/citrus-provincial-bronze.webp"
+      },
+      {
+        "title": "iCAN Project Recognition",
+        "subtitle": "柑橘卫士 · Award certificate",
+        "image": "/evidence/citrus-ican.webp"
+      },
+      {
+        "title": "Pest Classification & Recognition Algorithm",
+        "subtitle": "Registered software copyright",
+        "image": "/evidence/pest-recognition-software.webp"
+      },
+      {
+        "title": "Intelligent Pest Detection System",
+        "subtitle": "Registered software copyright",
+        "image": "/evidence/pest-detection-software.webp"
+      }
+    ],
+    "notes": "AI recognition and hardware were developed collaboratively; personal leadership centred on business, finance and coordination."
+  },
+  {
+    "id": "planting",
+    "detail": "planting",
+    "title": "Intelligent seedling system: business & finance",
+    "role": "Early-Stage Project Coordinator · Business & Finance Lead",
+    "status": "Project record",
+    "desc": "Supported team-developed automated cultivation equipment through commercial strategy, independent financial planning and partnership execution.",
+    "methods": "Business Strategy · Financial Modelling · OKR-Based Coordination · Operations Management · B2B Commercialisation",
+    "result": "National First Prize · Swan Cup; National Bronze Award · Innovation Competition",
+    "question": "",
+    "contrib": [
+      "Independently built budgets, cost and revenue models, financial forecasts and investment-appraisal analysis.",
+      "Coordinated five purchase orders and led the business workstream, including delegation, review and project delivery."
+    ],
+    "figures": [],
+    "notes": "Reported equipment sales are team outcomes; financial-plan projections are not realised revenue."
+  },
+  {
+    "id": "venture",
+    "detail": "venture",
+    "title": "Golden Pomfret value-chain venture",
+    "role": "Core team member · Market strategy & commercialisation",
+    "status": "Project record",
+    "desc": "Connected aquaculture field research with consumer needs, product strategy, commercial partnerships and rural value-chain development.",
+    "methods": "Market Intelligence · Product Strategy · Commercialisation · Financial Analysis · Partnership Development · Rural Revitalisation",
+    "result": "National Silver Award · China International College Students’ Innovation Competition",
+    "question": "",
+    "contrib": [
+      "Conducted 10+ rounds of field research with communities, enterprises and other stakeholders.",
+      "Co-developed market positioning, product concepts, business plans and financial analysis, and supported purchase agreements."
+    ],
+    "figures": [
+      {
+        "title": "National Silver Award",
+        "subtitle": "China International College Students’ Innovation Competition · 2023",
+        "image": "/evidence/venture-national-silver.webp"
+      },
+      {
+        "title": "Challenge Cup Provincial Silver",
+        "subtitle": "Prepared seafood venture · 2024",
+        "image": "/venture/award-challenge-silver.webp"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "fishers",
+    "detail": "fishers",
+    "title": "Fishermen’s livelihood resilience",
+    "role": "Co-first author",
+    "status": "In revision · Preparing for resubmission",
+    "desc": "Translated learning, buffering and self-organisation capacities into a dynamic model of fishing-community resilience under disaster and policy scenarios.",
+    "methods": "System dynamics · Vensim · Scenario simulation · Policy analysis",
+    "result": "Co-first-author manuscript in revision · Conference acceptance and outstanding-paper recognition",
+    "question": "",
+    "contrib": [
+      "Built a system-dynamics research framework under undergraduate-supervisor guidance.",
+      "Used Vensim to model feedback relationships and simulate alternative capacity and policy scenarios."
+    ],
+    "figures": [
+      {
+        "title": "Original stock-and-flow model",
+        "subtitle": "Vensim model from the project",
+        "image": "/research-development/fishers-stock-flow.webp"
+      },
+      {
+        "title": "Causal feedback diagram",
+        "subtitle": "Original system relationships",
+        "image": "/research-development/fishers-causal-loop.webp"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "marine-heritage",
+    "detail": "marine-heritage",
+    "title": "Marine-heritage research: bibliometric mapping",
+    "role": "First author",
+    "status": "In revision · Preparing for resubmission",
+    "desc": "Mapped two decades of research on China’s marine intangible cultural heritage using CNKI, Wanfang and VIP records.",
+    "methods": "CiteSpace · Bibliometric analysis · Knowledge mapping · NoteExpress",
+    "result": "First-author manuscript in revision · Previous external peer review",
+    "question": "",
+    "contrib": [
+      "Reviewed the literature and mapped keywords, institutions and evolving research clusters.",
+      "Synthesised research on heritage preservation, rural revitalisation and digital approaches into a manuscript."
+    ],
+    "figures": [
+      {
+        "title": "Keyword clusters",
+        "subtitle": "Original CiteSpace map · 2003–2022",
+        "image": "/research-development/marine-clusters.webp"
+      },
+      {
+        "title": "Citation bursts",
+        "subtitle": "Original research-frontier analysis",
+        "image": "/research-development/marine-bursts.webp"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "early-warning",
+    "detail": "early-warning",
+    "title": "Multi-indicator early-warning analysis",
+    "role": "First Team Member · Data Analysis & Research Writing",
+    "status": "2023 Huashu Cup Mathematical Modeling Competition · Honorable Mention",
+    "desc": "Integrated country-level indicators into a scoring and forecasting framework for a modelling competition.",
+    "methods": "TOPSIS · LASSO · LSTM",
+    "result": "Huashu Cup · Honorable Mention · 15 indicators, 2001–2020",
+    "question": "",
+    "contrib": [
+      "Collected, combined and preprocessed multi-source data.",
+      "Worked with modelling teammates on TOPSIS, LASSO and LSTM interpretation, and led the research report and English version."
+    ],
+    "figures": [
+      {
+        "title": "LASSO Cross-Validation",
+        "subtitle": "Original report · Figure 3 · Regularization and model validation",
+        "image": "/modeling/early-warning/lasso-validation.webp?v=20261007-refined"
+      },
+      {
+        "title": "Observed and Modeled Scores",
+        "subtitle": "Original report · Comparison of LASSO model outputs",
+        "image": "/modeling/early-warning/model-fit.webp?v=20261007-refined"
+      },
+      {
+        "title": "Regularization Paths",
+        "subtitle": "Original Word report · LASSO coefficient variation",
+        "image": "/modeling/early-warning/coefficient-paths.webp?v=20261007-refined"
+      },
+      {
+        "title": "Indicator Associations",
+        "subtitle": "Original Word report · Spearman correlation heatmap",
+        "image": "/modeling/early-warning/indicator-correlations.webp?v=20261007-refined"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "retail",
+    "detail": "retail",
+    "title": "Retail pricing & replenishment optimisation",
+    "role": "Collaborative modelling project · Individual role not specified in the source",
+    "status": "2023 China Undergraduate Mathematical Contest in Modeling · Guangdong Second Prize",
+    "desc": "Linked historical sales, demand forecasts and constrained optimisation to fresh-food pricing and stocking decisions.",
+    "methods": "ARIMA · Ridge · Genetic Algorithm",
+    "result": "Provincial Second Prize · Mathematical Modelling · 29 SKUs in the specified scenario",
+    "question": "",
+    "contrib": [
+      "Participated in the collaborative quantitative modelling study and technical submission."
+    ],
+    "figures": [
+      {
+        "title": "Category Correlation Heatmap",
+        "subtitle": "Original report · Spearman associations between vegetable categories",
+        "image": "/modeling/retail/correlation-heatmap.webp?v=20261007-refined"
+      },
+      {
+        "title": "SKU-Level Sales Associations",
+        "subtitle": "Original Word report · Spearman correlation heatmap",
+        "image": "/modeling/retail/sku-correlations.webp?v=20261007-refined"
+      },
+      {
+        "title": "Category Sales Patterns",
+        "subtitle": "Original Word report · Historical sales across vegetable categories",
+        "image": "/modeling/retail/sales-patterns.webp?v=20261007-refined"
+      },
+      {
+        "title": "Demand Time-Series Diagnostics",
+        "subtitle": "Original Word report · Cauliflower ACF/PACF diagnostics",
+        "image": "/modeling/retail/replenishment-plan.webp?v=20261007-refined"
+      }
+    ],
+    "notes": "The source does not separate a more specific individual role. Profit and assortment values are scenario results."
+  },
+  {
+    "id": "innovation-platform",
+    "detail": "innovation-platform",
+    "title": "3D modelling cloud platform",
+    "role": "Product Planning · UI Collaboration · Platform Testing",
+    "status": "Digital Product Development",
+    "desc": "Contributed product planning, UI collaboration and platform testing for photo-based modelling and cloud processing.",
+    "methods": "Product planning · Financial analysis · Cross-disciplinary collaboration",
+    "result": "Completed university innovation project · Registered software copyright",
+    "question": "",
+    "contrib": [
+      "Translated requirements into product planning and collaborated on the proposed interface.",
+      "Tested the platform and supported the cross-disciplinary project’s delivery."
+    ],
+    "figures": [
+      {
+        "image": "/innovation/3d-copyright.webp",
+        "title": "3D Model Design Software V1.0",
+        "subtitle": "Registered copyright co-holder · 7 February 2024 · QR and barcode removed"
+      },
+      {
+        "image": "/innovation/3d-completion.webp",
+        "title": "Innovation Project · Completion",
+        "subtitle": "Photo-based modelling platform with cloud processing · University-level training project · June 2023"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "innovation-patent",
+    "detail": "innovation-patent",
+    "title": "Financial information storage device",
+    "role": "Initial Concept Contributor · First-Listed Inventor",
+    "status": "Problem-Driven Innovation",
+    "desc": "Developed a finance-workflow product concept with engineering collaborators.",
+    "methods": "Product planning · Financial analysis · Cross-disciplinary collaboration",
+    "result": "Granted utility-model patent · First-listed inventor · ZL202322544773.3",
+    "question": "",
+    "contrib": [
+      "Proposed the initial functional concept and collaborated on design.",
+      "Helped prepare patent documentation; the university is the patent holder."
+    ],
+    "figures": [
+      {
+        "image": "/innovation/finance-design.webp",
+        "title": "Functional Design",
+        "subtitle": "Original product CAD drawing · Selected concept evidence"
+      },
+      {
+        "image": "/innovation/finance-assembly.webp",
+        "title": "Assembly View",
+        "subtitle": "Original project design · Records-storage device"
+      },
+      {
+        "image": "/innovation/finance-patent.webp",
+        "title": "Granted Utility-Model Patent",
+        "subtitle": "First-listed inventor · 一种财务信息保存装置 · ZL 2023 2 2544773.3"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "innovation-social",
+    "detail": "innovation-social",
+    "title": "Inclusive tennis & accessibility platform",
+    "role": "Community Engagement · Field Research · Financial Planning · Platform Collaboration",
+    "status": "Social Innovation",
+    "desc": "Combined direct engagement with coaches and Deaf or hard-of-hearing participants with financial planning and platform collaboration.",
+    "methods": "Product planning · Financial analysis · Cross-disciplinary collaboration",
+    "result": "City-level Silver Award · Registered software copyright co-holder",
+    "question": "",
+    "contrib": [
+      "Conducted on-site research and community outreach to understand practical participation needs.",
+      "Independently prepared financial analysis, funding plans, risk assessment and development proposals; collaborated on platform planning."
+    ],
+    "figures": [
+      {
+        "image": "/innovation/tennis-platform.webp",
+        "title": "Digital Publicity & Management",
+        "subtitle": "Original project deck · Slide 8 · Platform presentation and programme outreach"
+      },
+      {
+        "image": "/innovation/tennis-copyright.webp",
+        "title": "Registered Project Software",
+        "subtitle": "Tennis publicity and management platform · Named copyright co-holder"
+      },
+      {
+        "image": "/innovation/tennis-silver.webp",
+        "title": "City-Level Silver Award",
+        "subtitle": "2023 Chuangzhong Cup · Zhanjiang selection · Team award"
+      }
+    ],
+    "notes": ""
+  }
+]
