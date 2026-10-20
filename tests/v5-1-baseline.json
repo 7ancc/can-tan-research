@@ -1,0 +1,522 @@
+[
+  {
+    "width": 1440,
+    "metrics": {
+      "body": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgb(248, 247, 243)"
+      },
+      ".hero h1": {
+        "fontFamily": "\"Iowan Old Style\", Baskerville, Georgia, serif",
+        "fontSize": "71.55px",
+        "fontWeight": "400",
+        "lineHeight": "80.136px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".profile-stats b": {
+        "fontFamily": "\"Times New Roman\", Times, serif",
+        "fontSize": "34px",
+        "fontWeight": "700",
+        "lineHeight": "35.7px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-grid": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "0px",
+        "gap": "25px",
+        "gridTemplateColumns": "607.5px 607.5px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-card": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "27px 31px 32px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "4px",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      ".school-card h3": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "34px",
+        "fontWeight": "600",
+        "lineHeight": "38.76px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "0px",
+        "gap": "0px 18px",
+        "gridTemplateColumns": "262.75px 262.75px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.9px",
+        "padding": "9px 0px",
+        "gap": "7px",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li strong": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "19.6px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  {
+    "width": 1024,
+    "metrics": {
+      "body": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgb(248, 247, 243)"
+      },
+      ".hero h1": {
+        "fontFamily": "\"Iowan Old Style\", Baskerville, Georgia, serif",
+        "fontSize": "53.4389px",
+        "fontWeight": "400",
+        "lineHeight": "59.8516px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".profile-stats b": {
+        "fontFamily": "\"Times New Roman\", Times, serif",
+        "fontSize": "34px",
+        "fontWeight": "700",
+        "lineHeight": "35.7px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-grid": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "0px",
+        "gap": "25px",
+        "gridTemplateColumns": "451.5px 451.5px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-card": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "27px 31px 32px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "4px",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      ".school-card h3": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "25.6px",
+        "fontWeight": "600",
+        "lineHeight": "29.184px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "0px",
+        "gap": "0px 18px",
+        "gridTemplateColumns": "184.75px 184.75px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.9px",
+        "padding": "9px 0px",
+        "gap": "7px",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li strong": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "19.6px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  {
+    "width": 768,
+    "metrics": {
+      "body": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgb(248, 247, 243)"
+      },
+      ".hero h1": {
+        "fontFamily": "\"Iowan Old Style\", Baskerville, Georgia, serif",
+        "fontSize": "40.2103px",
+        "fontWeight": "400",
+        "lineHeight": "45.0355px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".profile-stats b": {
+        "fontFamily": "\"Times New Roman\", Times, serif",
+        "fontSize": "34px",
+        "fontWeight": "700",
+        "lineHeight": "35.7px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-grid": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "0px",
+        "gap": "15px",
+        "gridTemplateColumns": "350.5px 350.5px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-card": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "22px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "4px",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      ".school-card h3": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "25px",
+        "fontWeight": "600",
+        "lineHeight": "28.5px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "27.2px",
+        "padding": "0px",
+        "gap": "0px 18px",
+        "gridTemplateColumns": "304.5px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.9px",
+        "padding": "9px 0px",
+        "gap": "7px",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li strong": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "19.6px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  {
+    "width": 390,
+    "metrics": {
+      "body": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgb(248, 247, 243)"
+      },
+      ".hero h1": {
+        "fontFamily": "\"Iowan Old Style\", Baskerville, Georgia, serif",
+        "fontSize": "31.86px",
+        "fontWeight": "400",
+        "lineHeight": "35.6832px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".profile-stats b": {
+        "fontFamily": "\"Times New Roman\", Times, serif",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "lineHeight": "29.4px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-grid": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "gap": "15px",
+        "gridTemplateColumns": "354px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-card": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "25.5px",
+        "padding": "22px 21px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "4px",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      ".school-card h3": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "29px",
+        "fontWeight": "600",
+        "lineHeight": "33.06px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "gap": "0px 10px",
+        "gridTemplateColumns": "310px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.9px",
+        "padding": "9px 0px",
+        "gap": "7px",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li strong": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "19.6px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  },
+  {
+    "width": 320,
+    "metrics": {
+      "body": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgb(248, 247, 243)"
+      },
+      ".hero h1": {
+        "fontFamily": "\"Iowan Old Style\", Baskerville, Georgia, serif",
+        "fontSize": "25.56px",
+        "fontWeight": "400",
+        "lineHeight": "28.6272px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".profile-stats b": {
+        "fontFamily": "\"Times New Roman\", Times, serif",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "lineHeight": "29.4px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-grid": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "gap": "15px",
+        "gridTemplateColumns": "284px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-card": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "25.5px",
+        "padding": "22px 21px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "4px",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      ".school-card h3": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "29px",
+        "fontWeight": "600",
+        "lineHeight": "33.06px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "gap": "0px 10px",
+        "gridTemplateColumns": "240px",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.9px",
+        "padding": "9px 0px",
+        "gap": "7px",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      ".school-courses li strong": {
+        "fontFamily": "Inter, \"Avenir Next\", system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "19.6px",
+        "padding": "0px",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "borderTopWidth": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  }
+]
