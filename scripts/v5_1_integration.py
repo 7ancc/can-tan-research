@@ -128,7 +128,10 @@ def apply(pages):
     published[2] = published[2].replace('Tan Can and Wen Mingming.', 'Tan Can (first author); Wen Mingming (second and corresponding author).')
     publications = heading('Research outputs', 'Publications & manuscripts.')
     for label, css, items in [('Published Research', 'v51-published', published), ('Submitted Manuscripts', 'v51-submitted', submitted)]:
-        publications += '<div class="v51-publication-group ' + css + '"><div class="v51-split-head"><h3>' + label + '</h3><span class="count">' + str(len(items)) + '</span></div><div class="pub-grid">' + ''.join(items) + '</div></div>'
+        # Keep link-adjacent helpers injected by browser extensions inside a slot,
+        # rather than allowing them to become additional publication grid items.
+        slots = ''.join('<div class="v51-publication-slot">' + card + '</div>' for card in items)
+        publications += '<div class="v51-publication-group ' + css + '"><div class="v51-split-head"><h3>' + label + '</h3><span class="count">' + str(len(items)) + '</span></div><div class="pub-grid">' + slots + '</div></div>'
 
     research = block(html, 'research')
     research = re.sub(r'(<p class="summary">).*?(</p>)',

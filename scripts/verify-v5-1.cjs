@@ -16,6 +16,16 @@ for(const width of [1920,1440,1024,768,390,320]){
  await p.goto(base,{waitUntil:'networkidle'});await p.evaluate(()=>document.fonts.ready);
  assert.equal(await p.locator('.profile-stats .proof:nth-child(2) b').textContent(),'3');
  assert.equal(await p.locator('.v51-published .pub').count(),3);assert.equal(await p.locator('.v51-submitted .pub').count(),2);
+ // Link-helper siblings from browser extensions must not become grid cells.
+ const publishedCards=p.locator('.v51-published .pub');
+ const publicationPositions=()=>publishedCards.evaluateAll(es=>es.map(e=>{const r=e.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width}}));
+ const cleanPublicationPositions=await publicationPositions();
+ await publishedCards.evaluateAll(es=>es.slice(0,2).forEach(e=>{const helper=document.createElement('span');helper.className='test-link-helper';helper.textContent='↗';e.after(helper)}));
+ const helperPublicationPositions=await publicationPositions();
+ if(width>900){for(const positions of [cleanPublicationPositions,helperPublicationPositions]){assert(Math.max(...positions.map(r=>r.y))-Math.min(...positions.map(r=>r.y))<1,`${width} publications must share one row`);assert(Math.max(...positions.map(r=>r.width))-Math.min(...positions.map(r=>r.width))<1,`${width} publications must have equal widths`)}}
+ assert.equal(await p.locator('.v51-published .pub-grid > .v51-publication-slot').count(),3);
+ if([1440,390].includes(width))await p.locator('#publications').screenshot({path:path.join(out,'publications-with-link-helpers-'+width+'.png'),style:captureStyle});
+ await p.locator('.test-link-helper').evaluateAll(es=>es.forEach(e=>e.remove()));
  assert.equal(await p.locator('.strength-outcomes').count(),0);assert.equal(await p.locator('.v51-strength').count(),3);
  assert.equal(await p.locator('.v51-practice').count(),3);assert.equal(await p.locator('.practice-links a').count(),6);
  assert.equal(await p.locator('#strengths .summary, #publications .summary, #contributions .summary').count(),0);

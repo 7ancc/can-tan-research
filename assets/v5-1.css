@@ -44,6 +44,8 @@
 .v51-split-head .count{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;background:#e1e8df;color:#456750;font-size:12px;font-weight:600}
 .v51-published .pub-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .v51-submitted .pub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.v51-publication-slot{display:flex;flex-direction:column;min-width:0}
+.v51-publication-slot>.pub{flex:1;min-width:0}
 .v51 .pub{padding:24px 24px 22px;gap:13px;min-height:0;background:#fff;border-color:#dce4da}
 .v51 .pub.submitted{background:#f9f9f5}
 .v51 .pub .state{font-size:11px;letter-spacing:.06em;color:#966143;font-weight:600}
