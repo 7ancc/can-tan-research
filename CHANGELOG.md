@@ -1,5 +1,11 @@
 # Changelog
 
+## [5.1.1] - 2026-10-22
+
+### Fixed
+
+- Keep the three published-paper cards on one desktop row when browser link helpers add icons beside article links. Preserve paper content, destinations and mobile stacking.
+
 ## [5.1.0] - 2026-10-20
 
 ### Changed
